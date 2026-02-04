@@ -1,37 +1,19 @@
-HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+# --- СИСТЕМНЫЕ ФАЙЛЫ ---
+.DS_Store
+Thumbs.db
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# --- JAVA & INTELLIJ IDEA ---
+.idea/
 *.iml
-*.ipr
+*.iws
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+build/
+.gradle/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# --- СЕКРЕТЫ (НИКОГДА НЕ КОММИТЬ!) ---
+.env
 
-### VS Code ###
-.vscode/
+# --- ЛОКАЛЬНОЕ ХРАНИЛИЩЕ БОТА ---
+# Мы не хотим отправлять файлы пользователей на GitHub
+test_storage/
+test_storage_*/
