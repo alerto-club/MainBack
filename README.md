@@ -113,5 +113,5 @@ APP_FILES_MODE=PRIVATE
 
 ---
 <div align="center">
-<sub>Built with ❤️ by Alerto Club</sub>
+<sub>Built with ❤️ by Alerto</sub>
 </div>
